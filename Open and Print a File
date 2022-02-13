@@ -1,0 +1,9 @@
+Open the file called:  textfile.txt
+File is located in the path, where python is started
+print the content of the file.
+
+
+Solution::
+
+f = open("textfile.txt")
+print(f.read())
