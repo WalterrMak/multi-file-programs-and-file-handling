@@ -1,0 +1,23 @@
+Write a file  called: mycoolfile.txt
+
+with 5 lines in the file:
+
+My very first textline in this document!
+
+This is my second line!
+
+I was able to write 3 lines
+
+Don't forget to add the line break!
+
+This is the last line
+
+
+Solution:
+
+with open('mycoolfile.txt', 'w') as f:
+    f.write('My very first textline in this document!\n')
+    f.write('This is my second line!\n')
+    f.write('I was able to write 3 lines\n')
+    f.write("Don't forget to add the line break!\n")
+    f.write('This is the last line\n')
