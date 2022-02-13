@@ -1,0 +1,18 @@
+Print the line 1, 3 and 4 from the given file named mycoolfile.txt
+
+! Don't take off the the new lines from the file, or print.
+
+
+
+
+
+
+
+Solution::
+
+a_file = open("mycoolfile.txt")
+lines_to_read = [0, 2,3]
+
+for position, line in enumerate(a_file):
+    if position in lines_to_read:
+        print(line)
