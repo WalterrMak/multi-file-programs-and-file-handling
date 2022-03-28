@@ -1,0 +1,11 @@
+Use list comprehension to solve this exercises, otherwise you might get 0 points, even test is successful
+write a list comprehension to variable true_list, where are numbers from range from variable list_limit
+
+
+
+
+Solution
+
+
+true_list = [0, 1, 2, 3, 4,]
+true_list = [x for x in range(list_limit)]
